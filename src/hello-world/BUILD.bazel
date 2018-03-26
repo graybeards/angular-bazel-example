@@ -38,6 +38,7 @@ ts_web_test(
     name = "test",
     bootstrap = ["//:angular_bootstrap_scripts"],
     deps = [
+        "//src:karma_test_shim",
         ":test_lib",
         "//:angular_bundles",
         "//:angular_test_bundles",
